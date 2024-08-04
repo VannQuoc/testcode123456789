@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDescription</key>
+        <string>𝐑𝐞𝐠𝐞𝐝𝐢𝐭 𝐅𝐫𝐞𝐞𝐅𝐢𝐫𝐞 𝐁𝐚̉𝐧 𝐏𝐫𝐨 𝐎𝐁𝟒𝟓
+🔐 Nhẹ Tâm 90%
+🔐 Giảm Đạn Lạc
+🔐 Tăng Sensi Thiết Bị
+🔐 Hỗ Trợ Tăng Tốc Thao Tác (SUO)
+𝑂𝑛𝑙𝑦 𝑃𝑟𝑜: 𝑇𝑎̆𝑛𝑔 𝑇𝑖̉ 𝐿𝑒̣̂ 𝐻𝑒𝑎𝑑𝑠ℎ𝑜𝑡 Đ𝑒̂́𝑛 90%, 𝐺𝑖𝑎̉𝑚 𝑇ℎ𝑎𝑜 𝑇𝑎́𝑐 𝐾ℎ𝑢̛̣𝑛𝑔, 𝐻𝑜̂̃ 𝑇𝑟𝑜̛̣ 𝑉𝑎̀𝑜 𝑇𝑟𝑎̣̂𝑛 𝑁ℎ𝑎𝑛ℎ, 𝐺𝑖𝑎̉𝑚 𝑃𝑖𝑛𝑔, 𝐹𝑖𝑥 𝐿𝑎𝑔, 𝐶ℎ𝑜̂́𝑛𝑔 𝑁𝑜̛̉ 𝑇𝑎̂𝑚, 𝐶ℎ𝑜̂́𝑛𝑔 𝐷𝑒𝑙𝑎𝑦</string>
+        <key>PayloadDisplayName</key>
+        <string>𝐑𝐞𝐠𝐞𝐝𝐢𝐭 𝐒𝐗𝐗 𝐏𝐫𝐨 ⚒️𝐕𝐚𝐧𝐧𝐐𝐮𝐨𝐜𝐓𝐢𝐤𝐓𝐨𝐤</string>
+        <key>PayloadIdentifier</key>
+        <string>com.example.wifi</string>
+        <key>PayloadType</key>
+        <string>com.apple.wifi.managed</string>
+        <key>PayloadUUID</key>
+        <string>12345678-1234-1034-1234-1234567890ab</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SSID_STR</key>
+        <string>com.dts.freefire.th</string>
+        <key>HIDDEN_NETWORK</key>
+        <false/>
+        <key>EncryptionType</key>
+        <string>WPA</string>
+        <key>PayloadCertificateUUID</key>
+        <string>23456789-2345-2345-2345-2345678901bc</string>
+        <key>PayloadType</key>
+        <string>com.apple.security.pem</string>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>𝐑𝐞𝐠𝐞𝐝𝐢𝐭 𝐒𝐗𝐗 𝐏𝐫𝐨 ⚒️𝐕𝐚𝐧𝐧𝐐𝐮𝐨𝐜𝐓𝐢𝐤𝐓𝐨𝐤</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.configurationprofile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>34567890-3456-3456-3456-3456789012cd</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
