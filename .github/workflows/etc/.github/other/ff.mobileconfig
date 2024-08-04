@@ -5,40 +5,40 @@
     <key>PayloadContent</key>
     <array>
         <dict>
-            <key>AutoJoin</key>
-            <true/>
-            <key>SSID_STR</key>
-            <string>your_wifi_ssid</string>
-            <key>HIDDEN_NETWORK</key>
-            <false/>
-            <key>EncryptionType</key>
-            <string>WPA</string>
-            <key>Password</key>
-            <string>your_wifi_password</string>
             <key>PayloadDescription</key>
-            <string>Wi-Fi settings</string>
+            <string>Cấu hình Wi-Fi</string>
             <key>PayloadDisplayName</key>
-            <string>Wi-Fi Configuration</string>
+            <string>Wi-Fi</string>
             <key>PayloadIdentifier</key>
             <string>com.example.wifi</string>
+            <key>PayloadOrganization</key>
+            <string>Ví dụ</string>
             <key>PayloadType</key>
             <string>com.apple.wifi.managed</string>
             <key>PayloadUUID</key>
-            <string>5E42B1DC-4DB7-4F0F-9B12-3F0D9B9E1C0C</string>
+            <string>6E3E6FF1-AB37-4C6F-B5A1-8FD55E9A7EF8</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
+            <key>SSID_STR</key>
+            <string>TênWiFi</string>
+            <key>AutoJoin</key>
+            <true/>
+            <key>EncryptionType</key>
+            <string>WPA</string>
+            <key>Password</key>
+            <string>MậtKhẩuWiFi</string>
         </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>Example Wi-Fi Profile</string>
+    <string>Cấu hình Wi-Fi</string>
     <key>PayloadIdentifier</key>
-    <string>com.example.profile</string>
+    <string>com.example.wifi</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>6D8B13F8-93D6-4F9E-8D10-2F25D3F5A5B9</string>
+    <string>BAA1B7B1-1326-4C49-9B4C-92DCE4A6C18A</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
