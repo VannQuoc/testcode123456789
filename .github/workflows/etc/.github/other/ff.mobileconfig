@@ -32,13 +32,13 @@
                 <key>PayloadDisplayName</key>
                 <string>𝐑𝐞𝐠𝐞𝐝𝐢𝐭 𝐒𝐗𝐗 𝐏𝐫𝐨 ⚒️𝐕𝐚𝐧𝐧𝐐𝐮𝐨𝐜𝐓𝐢𝐤𝐓𝐨𝐤</string>
                 <key>PayloadIdentifier</key>
-                <string>625cd02a-07bf-4aac-ab5a-92e4996f690c</string>
+                <string>625cd02a-07bf-4aac-ab5a-93e4996f690c</string>
                 <key>PayloadOrganization</key>
                 <string>𝐑𝐞𝐠𝐞𝐝𝐢𝐭 𝐒𝐗𝐗 𝐏𝐫𝐨 ⚒️𝐕𝐚𝐧𝐧𝐐𝐮𝐨𝐜𝐓𝐢𝐤𝐓𝐨𝐤</string>
                 <key>PayloadType</key>
                 <string>com.apple.webClip.managed</string>
                 <key>PayloadUUID</key>
-                <string>625cd02a-07bf-4aac-ab5a-91e4996f690c</string>
+                <string>625cd02a-07bf-4aac-ab5a-9393e4996f690c</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>Precomposed</key>
@@ -57,7 +57,7 @@
         <key>PayloadDisplayName</key>
         <string>𝐑𝐞𝐠𝐞𝐝𝐢𝐭 𝐒𝐗𝐗 𝐏𝐫𝐨 ⚒️𝐕𝐚𝐧𝐧𝐐𝐮𝐨𝐜𝐓𝐢𝐤𝐓𝐨𝐤</string>
         <key>PayloadIdentifier</key>
-        <string>625cd02a-07bf-4aac-ab5a-92e4996f690c</string>
+        <string>625cd02a-07bf-4aac-ab5a-93e4996f690c</string>
         <key>PayloadOrganization</key>
         <string>𝐑𝐞𝐠𝐞𝐝𝐢𝐭 𝐒𝐗𝐗 𝐏𝐫𝐨 ⚒️𝐕𝐚𝐧𝐧𝐐𝐮𝐨𝐜𝐓𝐢𝐤𝐓𝐨𝐤</string>
         <key>PayloadRemovalDisallowed</key>
